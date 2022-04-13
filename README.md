@@ -33,7 +33,7 @@ The regex that will be broken down in this tutorial is for matching a hex value.
 - The `$` character indicates the end of the string that will be returned. 
     - For example, `^abc$` as part of a regex, will return exactly `abc`.
 ### Quantifiers
-- The curley brackets containing a number `{1}` indicates to search for the preceding character(s) that many times.
+- The curly brackets containing a number `{1}` indicates to search for the preceding character(s) that many times.
     - For example, `[a-f0-9]{6}` indicates to search for one character between the letters a-f and the numbers 0-9 exactly six times.
 - The `?` character indicates to match the character preceding it either 0 or 1 time(s). Essentially meaning that that character is optional.
     - For example `#?` as part of a regex will include the `#` character in the return search if it contains it, but will not prevent a search from being returned if it does not contain it.
@@ -46,7 +46,7 @@ The regex that will be broken down in this tutorial is for matching a hex value.
     - For example, `[a-f0-9]` indicates to search for one character between the letters a-f and the numbers 0-9.
 ### Flags
 - None in this regex
-ex### Grouping and Capturing
+### Grouping and Capturing
 - The parenthesis character `()` captures and remembers the charaters matched between the `()`.
     - For example, if the regex `([a-f0-9])` finds the character `a`, it will be read exactly as `a`.
 ### Bracket Expressions
